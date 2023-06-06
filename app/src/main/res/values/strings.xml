@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StylizedLineChart</string>
+    <string name="main_title">LINE CHART SAMPLE</string>
+    <string name="main_description">Sample that shows how to get different color markers depending on their value</string>
+</resources>
