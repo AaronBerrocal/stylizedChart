@@ -28,14 +28,14 @@ class MainActivity : AppCompatActivity() {
 
         val configuredData = chartConfiguration.chartDataSetup(
             context = this,
-            drawableRes = R.drawable.baseline_star_24
+            drawableRes = R.drawable.twotone_square_24
         )
 
         chartConfiguration.chartSetup(
             chart = lChart,
             chartEntries = configuredData,
-            label = "Stylized Line Chart",
-            description = "This graph shows different colors applied to custom markers",
+            label = "",
+            description = "",
         )
 
     }
